@@ -19,7 +19,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 // NAVBAR BUTTON (WITHIN BURGER MENU) STYLING
 const navigationMenuButtonStyling: object = {
-    '&:first-child': {
+    '&:first-of-type': {
         borderTop: 'none'
     },
 
@@ -106,7 +106,7 @@ const Navbar = (props: NavbarProps) => {
                                     key={page}
                                     onClick={() => {
                                         closeNavigationMenu();
-                                        navigate(`/${page}`);
+                                        navigate(`/${page.toLowerCase()}`);
                                     }}
                                     className="navigationmenu_button"
                                     sx={navigationMenuButtonStyling}

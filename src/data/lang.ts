@@ -42,5 +42,10 @@ export const translations: any = {
     'error_subtitle': {
         'EN': 'Seems like you got lost! Would you like to go back home?',
         'ES': '¡Parece que te perdiste! ¿Te gustaría volver al inicio?'
+    },
+
+    'focusimagehint': {
+        'EN': 'Tip: You can enlarge images by clicking on them!',
+        'ES': 'Consejo: ¡Puedes ampliar las imágenes haciendo clic en ellas!'
     }
 }

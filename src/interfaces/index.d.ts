@@ -29,3 +29,8 @@ interface AboutProps {
     currentLanguage: string;
     toggleLanguages: any;
 }
+
+interface ContactProps {
+    currentLanguage: string;
+    toggleLanguages: any;
+}
