@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+    --primary_color: rgb(238, 173, 184);
+    --secondary_color: #3c9aad;
+    --tertiary_color: rgb(252, 93, 199);
+    --tertiary_color_loweralpha: rgba(252, 93, 199, 0.295);
+}
+
+::-webkit-scrollbar {
+    width: .85vmin;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(53, 53, 53);
+}
+
+::-webkit-scrollbar-thumb {
+    &:hover {
+        background: rgb(243, 127, 204);
+    }
+
+    border-radius: 10px;
+    background: var(--tertiary_color);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiMenu-list {
+    background-color: var(--secondary_color);
+}
