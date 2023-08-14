@@ -47,4 +47,4 @@ export const products: object[] = [
         price: '$7.00',
         image: 'tulipbow.jpg'
     }
-]
+];
