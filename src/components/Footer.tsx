@@ -46,7 +46,22 @@ const Footer = (props: FooterProps) => {
 
                 <Typography component="p" variant="h6" color="white">
                     {translations['placeorder_instructions'][currentLanguage]}
-                    {<Link sx={{ color: 'var(--primary_color)' }} href={facebookLink} rel="noopener noreferrer" target="_blank">Facebook</Link>}.
+                    {<Link
+                        sx={{
+                            '&:hover': {
+                                color: 'var(--tertiary_color)'
+                            },
+
+                            color: 'var(--primary_color)',
+                            transition: '.2s',
+                            textDecorationColor: 'var(--primary_color)'
+                        }}
+                        href={facebookLink}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        Facebook
+                    </Link>}.
                 </Typography>
 
                 <Typography component="p" variant="body1" color="white" mt={1}>

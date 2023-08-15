@@ -47,5 +47,10 @@ export const translations: any = {
     'focusimagehint': {
         'EN': 'Tip: You can enlarge images by clicking on them!',
         'ES': 'Consejo: ¡Puedes ampliar las imágenes haciendo clic en ellas!'
+    },
+
+    'customorders': {
+        'EN': 'We accept custom orders! Please send a direct message to our ',
+        'ES': '¡Aceptamos pedidos personalizados! Por favor envíe un mensaje directo a nuestro '
     }
 }

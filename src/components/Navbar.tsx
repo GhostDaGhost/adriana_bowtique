@@ -38,6 +38,7 @@ const Navbar = (props: NavbarProps) => {
         <AppBar sx={{ backgroundColor: 'var(--secondary_color)' }} position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
+                    {/* DESKTOP / LARGE MONITORS */}
                     <Box sx={{ display: { xs: "none", md: "flex" }, mr: 5, cursor: 'pointer' }} onClick={() => {
                         navigate('/home');
                     }}>
@@ -50,7 +51,8 @@ const Navbar = (props: NavbarProps) => {
                         />
                     </Box>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none", cursor: 'pointer' } }} onClick={() => {
+                    {/* MOBILE / SMALL MONITORS */}
+                    <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" }, cursor: 'pointer' }} onClick={() => {
                         navigate('/home');
                     }}>
                         <img
@@ -62,6 +64,7 @@ const Navbar = (props: NavbarProps) => {
                         />
                     </Box>
 
+                    {/* MOBILE / SMALL MONITORS */}
                     <Box sx={{ display: { xs: "flex", md: "none" } }}>
                         <IconButton
                             size="large"
@@ -110,6 +113,7 @@ const Navbar = (props: NavbarProps) => {
                         </Menu>
                     </Box>
 
+                    {/* DESKTOP / LARGE MONITORS */}
                     <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                         {pages.map(page => (
                             <Button
