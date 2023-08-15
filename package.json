@@ -16,6 +16,7 @@
     "@mui/material": "^5.14.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.14.2",
     "sass": "^1.64.2",
     "sass-loader": "^13.3.2"

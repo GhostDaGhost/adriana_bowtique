@@ -1,0 +1,29 @@
+.carousel-root {
+    > .carousel-slider {
+        > .carousel-status {
+            margin-top: 5px;
+            margin-right: 8.55px;
+
+            font-size: 18px;
+            font-family: 'Preahvihear';
+        }
+    }
+
+    > .carousel {
+        > .thumbs-wrapper {
+            > .thumbs {
+                > .thumb {
+                    &:hover {
+                        border-color: rgb(255, 185, 232);
+                    }
+    
+                    border-radius: 5px;
+                }
+    
+                > .selected {
+                    border: 3px solid var(--tertiary_color);
+                }
+            }
+        }
+    }
+}
