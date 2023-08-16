@@ -34,3 +34,13 @@ interface ContactProps {
     currentLanguage: string;
     toggleLanguages: any;
 }
+
+interface SocialMediaPlatformProps {
+    name: string;
+    link: string;
+}
+
+interface ConfirmationAlertProps {
+    severity: string;
+    message: string;
+}

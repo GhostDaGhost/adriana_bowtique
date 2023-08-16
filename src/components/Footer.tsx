@@ -34,7 +34,7 @@ const Footer = (props: FooterProps) => {
 
     // RETURN ELEMENT
     return (
-        <Box component="footer" sx={{ py: 4, backgroundColor: 'var(--secondary_color)' }}>
+        <Box component="footer" sx={{ py: 4, bgcolor: 'var(--secondary_color)' }}>
             <Container maxWidth="lg">
                 <Box mb={1}>
                     {socialMediaLinks.map((mediaEntry: any) => (

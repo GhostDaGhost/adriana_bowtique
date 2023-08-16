@@ -1,0 +1,22 @@
+.MuiFormControl-root {
+    &:hover {
+        > .MuiInputBase-root {
+            > .MuiOutlinedInput-notchedOutline {
+                border-color: white;
+            }
+        }
+    }
+
+    > .MuiFormLabel-root {
+        color: rgb(201, 201, 201);
+    }
+
+    > .MuiInputBase-root {
+        color: white;
+
+        > .MuiOutlinedInput-notchedOutline {
+            transition: .1s;
+            border: 2px solid rgb(201, 201, 201);
+        }
+    }
+}

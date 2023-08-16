@@ -35,7 +35,7 @@ const Navbar = (props: NavbarProps) => {
 
     // RETURN ELEMENT
     return (
-        <AppBar sx={{ backgroundColor: 'var(--secondary_color)' }} position="static">
+        <AppBar sx={{ bgcolor: 'var(--secondary_color)' }} position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     {/* DESKTOP / LARGE MONITORS */}

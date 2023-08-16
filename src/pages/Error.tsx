@@ -12,7 +12,7 @@ const Error = (props: ErrorProps) => {
             <Navbar currentLanguage={currentLanguage} />
 
             <Container maxWidth="md">
-                <Box mt={5} p={2} sx={{ borderRadius: '6px', border: '6px dotted var(--tertiary_color)', backgroundColor: 'var(--tertiary_color_loweralpha)' }}>
+                <Box mt={5} p={2} sx={{ borderRadius: '6px', border: '6px dotted var(--tertiary_color)', bgcolor: 'var(--tertiary_color_loweralpha)' }}>
                     <Typography align="center" component="div" variant="h2" sx={{ mb: 4 }} fontFamily="Preahvihear">Error 404</Typography>
 
                     <Typography align="center" component="div" variant="h5" fontFamily="Preahvihear">

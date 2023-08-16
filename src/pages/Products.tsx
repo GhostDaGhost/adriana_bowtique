@@ -51,7 +51,7 @@ const Products = (props: ProductsProps) => {
             </Modal>
 
             <Box sx={{ py: 8, px: 5 }}>
-                <Box sx={{ mt: -3, mb: 5, p: 5, borderRadius: '6px', border: '6px dotted var(--tertiary_color)', backgroundColor: 'var(--tertiary_color_loweralpha)'}}>
+                <Box sx={{ mt: -3, mb: 5, p: 5, borderRadius: '6px', border: '6px dotted var(--tertiary_color)', bgcolor: 'var(--tertiary_color_loweralpha)'}}>
                     <Typography variant="h5" align="center" fontFamily="Preahvihear" gutterBottom>
                         {translations['placeorder_instructions'][currentLanguage]} <Link href={facebookLink} rel="noopener noreferrer" target="_blank">Facebook</Link>!
                     </Typography>
@@ -68,7 +68,7 @@ const Products = (props: ProductsProps) => {
                                 height: '100%',
                                 display: 'flex',
                                 flexDirection: 'column',
-                                backgroundColor: 'var(--secondary_color)',
+                                bgcolor: 'var(--secondary_color)',
                                 color: 'white'
                             }}>
                                 <CardMedia

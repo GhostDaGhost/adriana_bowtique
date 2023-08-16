@@ -4,12 +4,18 @@ import { Typography } from "@mui/material";
 const HomeBio = () => {
     return (
         <Typography component="p" variant="body1" color="white" fontFamily="Preahvihear">
-            <b>Welcome to Adriana's Bowtique</b>, where elegance meets playfulness in the world of bows!
-            At Adriana's Bowtique, we believe that bows are more than just accessories - they're expressions of individuality and style. Our collection showcases an array of meticulously crafted bows, ranging from classic and sophisticated designs to charmingly quirky creations. Whether you're seeking the perfect hair adornment for a special occasion or a fun and vibrant bow to add a pop of personality to your everyday look, we have something to suit every taste and mood.
+            <b>Welcome to Adriana's Bowtique</b> - where creativity and love come together to adorn your world with delightful bows! 🎀
+            At Adriana's Bowtique, every bow tells a story of a mother's dedication and passion for crafting. Our small online business is the brainchild of a loving mother of three who pours her heart and soul into every creation. Each bow is carefully handcrafted with meticulous attention to detail, ensuring that you receive a truly unique and charming accessory.
             <br />
             <br />
-            Every bow that leaves Adriana's Bowtique is a testament to our commitment to quality. Each piece is crafted using the finest materials, ensuring durability and a luxurious feel. From satin ribbons that glide through your fingers to delicate lace that adds an air of romance, our attention to detail is evident in every stitch and fold.
-            But it's not just about the bows - it's about the experience. As you step into our charming bowtique, you'll be greeted by an atmosphere of warmth and creativity. Our knowledgeable staff is here to assist you in finding the perfect bow for any occasion or to help you create a customized masterpiece that truly reflects your unique style. Whether you're a fashion-forward trendsetter or a parent looking for an adorable accessory for your little one, Adriana's Bowtique is your destination for all things bows.
+            <br />
+            Our collection features a wide array of bows, each designed to add a touch of whimsy and elegance to your outfits, no matter the occasion. From adorable mini bows that are perfect for everyday wear to elegant statement bows that add a dash of sophistication to special events, Adriana's Bowtique has something for everyone.
+            What sets us apart is the personal touch we bring to each transaction. Purchases are made through Facebook messages, allowing you to directly connect with the artisan behind the bows. This intimate shopping experience ensures that you not only receive a beautifully crafted bow but also a piece of the artist's heart.
+            Whether you're dressing up your little ones or looking for a charming gift, Adriana's Bowtique has the perfect bow waiting for you. Join us in celebrating the art of bow-making and supporting a small business that's built on love, creativity, and the joy of sharing beautiful accessories with the world.
+            <br />
+            <br />
+            <br />
+            Visit us on Facebook, send us a message, and let us create a bow that perfectly captures your style and personality. Discover the magic of Adriana's Bowtique – where every bow is a work of art and a testament to a mother's love. 🌟🎁
         </Typography>
     )
 }

@@ -8,7 +8,7 @@ const LanguageSwitch = (props: LanguageSwitchProps) => {
     // RETURN ELEMENT
     return (
         <Container maxWidth="lg">
-            <Box mt={3} p={2} sx={{ borderRadius: '6px', border: '6px dotted var(--tertiary_color)', backgroundColor: 'var(--tertiary_color_loweralpha)' }}>
+            <Box mt={3} p={2} sx={{ borderRadius: '6px', border: '6px dotted var(--tertiary_color)', bgcolor: 'var(--tertiary_color_loweralpha)' }}>
                 <Typography fontFamily="Preahvihear" mb={2} sx={{ fontSize: '25px' }} variant="h5">
                     {translations['languageswitch_title'][currentLanguage]}
                 </Typography>

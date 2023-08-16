@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { debuggingLoadingSequence } from "./data/config";
 
-import About from "./pages/About";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 import LoadingSequence from "./components/LoadingSequence";
@@ -44,7 +43,6 @@ const App = () => {
                 }
 
                 <Route path='/home' element={<Home currentLanguage={currentLanguage} toggleLanguages={toggleLanguages} />}/>
-                <Route path='/about' element={<About currentLanguage={currentLanguage} toggleLanguages={toggleLanguages} />} />
                 <Route path='/products' element={<Products currentLanguage={currentLanguage} toggleLanguages={toggleLanguages} />} />
                 <Route path='/contact' element={<Contact currentLanguage={currentLanguage} toggleLanguages={toggleLanguages} />} />
                 <Route path="*" element={<Error currentLanguage={currentLanguage} />} />

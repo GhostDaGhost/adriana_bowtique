@@ -52,5 +52,40 @@ export const translations: any = {
     'customorders': {
         'EN': 'We accept custom orders! Please send a direct message to our ',
         'ES': '¡Aceptamos pedidos personalizados! Por favor envíe un mensaje directo a nuestro '
+    },
+
+    'emailus': {
+        'EN': 'Email us!',
+        'ES': '¡Envíanos un correo electrónico!'
+    },
+
+    'emailus_subtitle': {
+        'EN': 'Let us know if you have any questions or if there\'s anything we can do!',
+        'ES': 'Háganos saber si tiene alguna pregunta o si hay algo que podamos hacer.'
+    },
+
+    'emailus_submit': {
+        'EN': 'Submit',
+        'ES': 'Enviar'
+    },
+
+    'fullname': {
+        'EN': 'Full Name',
+        'ES': 'Nombre completo'
+    },
+
+    'emailaddress': {
+        'EN': 'Email Address',
+        'ES': 'Dirección de correo electrónico'
+    },
+
+    'subject': {
+        'EN': 'Subject',
+        'ES': 'Sujeto'
+    },
+
+    'message': {
+        'EN': 'Message',
+        'ES': 'Mensaje'
     }
 }

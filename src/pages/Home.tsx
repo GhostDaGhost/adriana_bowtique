@@ -54,7 +54,7 @@ const Home = (props: HomeProps) => {
 
             {/* CUSTOM ORDERS NOTICE */}
             <Container maxWidth="lg">
-                <Box sx={{ mb: 4, p: 2, borderRadius: '6px', border: '6px dotted var(--tertiary_color)', backgroundColor: 'var(--tertiary_color_loweralpha)' }}>
+                <Box sx={{ mb: 4, p: 2, borderRadius: '6px', border: '6px dotted var(--tertiary_color)', bgcolor: 'var(--tertiary_color_loweralpha)' }}>
                     <Typography fontFamily="Preahvihear" sx={{ fontSize: '25px' }} variant="h5">
                         {translations['customorders'][currentLanguage]} <Link href={facebookLink} rel="noopener noreferrer" target="_blank">Facebook</Link>!
                     </Typography>
