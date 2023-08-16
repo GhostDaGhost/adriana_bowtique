@@ -11,6 +11,16 @@
         color: rgb(201, 201, 201);
     }
 
+    > .MuiFormLabel-root.Mui-focused {
+        color: rgb(230, 172, 222) !important;
+    }
+
+    > .MuiInputBase-root.Mui-focused {
+        > .MuiOutlinedInput-notchedOutline {
+            border-color: rgb(230, 172, 222);
+        }
+    }
+
     > .MuiInputBase-root {
         color: white;
 

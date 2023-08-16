@@ -75,6 +75,7 @@ const SocialMediaPlatform = (props: SocialMediaPlatformProps) => {
                 py: 2,
                 px: 5,
                 color: 'black',
+                textDecoration: 'none',
                 display: 'flex',
                 alignItems: 'center',
                 flexDirection: 'column',
@@ -90,7 +91,9 @@ const SocialMediaPlatform = (props: SocialMediaPlatformProps) => {
             </Box>
         
             <Box>
-                <Typography variant="h5" align="center">{name}</Typography>
+                <Typography variant="h5" align="center" fontFamily="Preahvihear">
+                    {name}
+                </Typography>
             </Box>
         </Box>
     )
@@ -187,12 +190,12 @@ const Contact = (props: ContactProps) => {
                     }
 
                     {/* HEADER */}
-                    <Typography variant="h4" color="white" align="center">
+                    <Typography variant="h4" color="white" align="center" fontFamily="Preahvihear">
                         {translations['emailus'][currentLanguage]}
                     </Typography>
 
                     {/* SUBTITLE */}
-                    <Typography variant="subtitle1" color="white" align="center" sx={{ mt: 1, mb: 2 }}>
+                    <Typography variant="subtitle1" color="white" align="center" sx={{ mt: 1, mb: 2 }} fontFamily="Preahvihear">
                         {translations['emailus_subtitle'][currentLanguage]}
                     </Typography>
 
