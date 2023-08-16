@@ -87,5 +87,20 @@ export const translations: any = {
     'message': {
         'EN': 'Message',
         'ES': 'Mensaje'
+    },
+
+    'alert_error': {
+        'EN': 'There was an error with sending the email! Please try again later!',
+        'ES': '¡Hubo un error con el envío del correo electrónico! ¡Por favor, inténtelo de nuevo más tarde!'
+    },
+
+    'alert_warning': {
+        'EN': 'You cannot send an email at this time! Please try again later!',
+        'ES': '¡No puedes enviar un correo electrónico en este momento! ¡Por favor, inténtelo de nuevo más tarde!'
+    },
+
+    'alert_success': {
+        'EN': 'The email has been submitted! Thank you!',
+        'ES': '¡El correo electrónico ha sido enviado! ¡Gracias!'
     }
 }

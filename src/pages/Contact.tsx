@@ -175,15 +175,15 @@ const Contact = (props: ContactProps) => {
                 {/* CONTACT FORM */}
                 <Box component="form" onSubmit={onSubmitButtonClick} noValidate sx={contactFormStyling}>
                     {submissionStatus['success'] === true &&
-                        <ConfirmationAlert severity="success" message="The email has been submitted! Thank you!" />
+                        <ConfirmationAlert severity="success" message={translations['alert_success'][currentLanguage]} />
                     }
 
                     {submissionStatus['success'] === false &&
-                        <ConfirmationAlert severity="error" message="There was an error with sending the email! Please try again later!" />
+                        <ConfirmationAlert severity="error" message={translations['alert_error'][currentLanguage]} />
                     }
 
                     {showCooldownAlert && onCooldown &&
-                        <ConfirmationAlert severity="warning" message="You cannot send an email at this time! Please try again later!" />
+                        <ConfirmationAlert severity="warning" message={translations['alert_warning'][currentLanguage]} />
                     }
 
                     {/* HEADER */}
