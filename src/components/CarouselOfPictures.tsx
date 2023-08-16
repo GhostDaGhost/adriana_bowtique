@@ -8,7 +8,7 @@ import FeaturedPicture4 from '../assets/featured4.jpg';
 // CAROUSEL OF PICTURES
 const CarouselOfPictures = () => {
     return (
-        <Carousel dynamicHeight autoPlay useKeyboardArrows>
+        <Carousel dynamicHeight autoPlay useKeyboardArrows infiniteLoop>
             <div>
                 <img src={FeaturedPicture1} alt="featured picture #1" draggable="false" loading="lazy" />
             </div>
