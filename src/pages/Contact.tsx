@@ -176,7 +176,7 @@ const Contact = (props: ContactProps) => {
                 </Box>
 
                 {/* CONTACT FORM */}
-                <Box component="form" onSubmit={onSubmitButtonClick} noValidate sx={contactFormStyling}>
+                <Box component="form" onSubmit={onSubmitButtonClick} sx={contactFormStyling}>
                     {submissionStatus['success'] === true &&
                         <ConfirmationAlert severity="success" message={translations['alert_success'][currentLanguage]} />
                     }
