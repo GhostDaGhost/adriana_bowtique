@@ -44,3 +44,12 @@ interface ConfirmationAlertProps {
     severity: string;
     message: string;
 }
+
+interface PaymentMethodProps {
+    name: string;
+    imageName: string;
+}
+
+interface AuthorizedPaymentMethodsProps {
+    currentLanguage: string;
+}

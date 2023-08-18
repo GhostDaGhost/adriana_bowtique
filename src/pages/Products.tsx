@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Card, CardContent, CardMedia, Box, Grid, Typography, Link, Modal } from "@mui/material";
+import { Card, CardContent, CardMedia, Box, Grid, Typography, Link, Modal, Container } from "@mui/material";
 
 import { translations } from "../data/lang";
 import { products } from "../data/products";
@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ScrollToTop from "../components/ScrollToTop";
 import LanguageSwitch from "../components/LanguageSwitch";
+import AuthorizedPaymentMethods from "../components/AuthorizedPaymentMethods";
 
 // FOCUSED IMAGE MODAL STYLING
 const focusedImageModalStyling: object = {
@@ -51,7 +52,17 @@ const Products = (props: ProductsProps) => {
             </Modal>
 
             <Box sx={{ py: 8, px: 5 }}>
-                <Box sx={{ mt: -3, mb: 5, p: 5, borderRadius: '6px', border: '6px dotted var(--tertiary_color)', bgcolor: 'var(--tertiary_color_loweralpha)'}}>
+                <Container
+                    maxWidth="xl"
+                    sx={{
+                        mt: -5,
+                        mb: 3,
+                        py: 2,
+                        borderRadius: '6px',
+                        border: '6px dotted var(--tertiary_color)',
+                        bgcolor: 'var(--tertiary_color_loweralpha)'
+                    }}
+                >
                     <Typography variant="h5" align="center" fontFamily="Preahvihear" gutterBottom>
                         {translations['placeorder_instructions'][currentLanguage]} <Link href={facebookLink} rel="noopener noreferrer" target="_blank">Facebook</Link>!
                     </Typography>
@@ -59,10 +70,14 @@ const Products = (props: ProductsProps) => {
                     <Typography variant="h6" align="center" fontFamily="Preahvihear">
                         {translations['focusimagehint'][currentLanguage]}
                     </Typography>
-                </Box>
+                </Container>
 
+                {/* AUTHORIZED PAYMENT METHODS */}
+                <AuthorizedPaymentMethods currentLanguage={currentLanguage} />
+
+                {/* PRODUCTS */}
                 <Grid container spacing={4}>
-                    {products.map((product: any, index: any) => (
+                    {products.map((product: any, index: number) => (
                         <Grid item key={index} xs={12} sm={6} md={4}>
                             <Card sx={{
                                 height: '100%',
@@ -105,8 +120,10 @@ const Products = (props: ProductsProps) => {
                 </Grid>
             </Box>
 
+            {/* SCROLL TO TOP */}
             <ScrollToTop />
 
+            {/* FOOTER */}
             <Footer currentLanguage={currentLanguage} />
         </>
     )

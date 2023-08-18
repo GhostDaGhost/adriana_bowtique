@@ -102,5 +102,15 @@ export const translations: any = {
     'alert_success': {
         'EN': 'The email has been submitted! Thank you!',
         'ES': '¡El correo electrónico ha sido enviado! ¡Gracias!'
+    },
+
+    'paymentmethod_notice': {
+        'EN': 'We accept payment in the following methods',
+        'ES': 'Aceptamos el pago en los siguientes métodos'
+    },
+
+    'paypal_notice': {
+        'EN': 'If you use PayPal, please select Family and Friends. Thank you!',
+        'ES': 'Si usa PayPal, seleccione Familia y amigos. ¡Gracias!'
     }
 }
