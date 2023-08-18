@@ -44,21 +44,29 @@ const AuthorizedPaymentMethods = (props: AuthorizedPaymentMethodsProps) => {
             <Divider sx={{ mt: 2, mb: 3 }} />
 
             {/* CONTACTS IN PAYMENT METHODS */}
-            <Box display="flex" alignItems="center" flexDirection="column" sx={{ mt: 1, mb: 3 }}>
-                <Typography variant="subtitle1" fontFamily="Preahvihear" gutterBottom>
-                    Venmo: <b>{venmoUsername}</b>
+            <Box display="flex" alignItems="center" flexDirection="column" sx={{ mb: 3 }}>
+                <Typography variant="subtitle1" align="center" fontFamily="Preahvihear" gutterBottom>
+                    Venmo:
+                    <br />
+                    <b>{venmoUsername}</b>
                 </Typography>
 
-                <Typography variant="subtitle1" fontFamily="Preahvihear" gutterBottom>
-                    Zelle: <b>{mainPhoneNumber}</b>
+                <Typography variant="subtitle1" align="center" fontFamily="Preahvihear" gutterBottom>
+                    Zelle:
+                    <br />
+                    <b>{mainPhoneNumber}</b>
                 </Typography>
 
-                <Typography variant="subtitle1" fontFamily="Preahvihear" gutterBottom>
-                    Apple Pay: <b>{mainPhoneNumber}</b>
+                <Typography variant="subtitle1" align="center" fontFamily="Preahvihear" gutterBottom>
+                    Apple Pay:
+                    <br />
+                    <b>{mainPhoneNumber}</b>
                 </Typography>
 
-                <Typography variant="subtitle1" fontFamily="Preahvihear">
-                    PayPal: <b>{payPalEmail}</b>
+                <Typography variant="subtitle1" align="center" fontFamily="Preahvihear">
+                    PayPal:
+                    <br />
+                    <b>{payPalEmail}</b>
                 </Typography>
             </Box>
 
